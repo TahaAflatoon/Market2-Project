@@ -1,0 +1,178 @@
+/* (Responsive)*/
+/* Mobile (small) */
+@media screen and (min-width:320px) and (max-width:374px) {
+/*Header icons*/
+.header i {
+    padding: 0.5rem 0;
+    display: block;
+}
+/*Slider titles*/
+.text-1 h3, .text-2 h3, .text-3 h3 {
+    font-size: 17.5pt;
+    padding-bottom: 0.25em;
+}
+.text-1, .text-2, .text-3 {
+    bottom: 5px;
+}
+/*What options*/
+.what-option {
+    width: 50%;
+}
+.what-option h3 {
+    font-size: 15pt;
+}
+/*Pricing options*/
+.pricing-list {
+    flex-flow: column wrap;
+}
+.pricing-option {
+    width: 100%;
+    margin-top: 1em;
+}
+/*Team options*/
+.team {
+    flex-flow: column wrap;
+}
+.member {
+    width: 100%;
+    margin-top: 1em;
+}
+}
+
+/* Mobile (medium) */
+@media screen and (min-width:375px) and (max-width:424px) {
+.header i {
+    padding: 0.5rem 0;
+    display: block;
+}
+.text-1 h3, .text-2 h3, .text-3 h3 {
+    font-size: 17.5pt;
+    padding-bottom: 0.25em;
+}
+.text-1, .text-2, .text-3 {
+    bottom: 5px;
+}
+.what-option {
+    width: 50%;
+}
+.what-option h3 {
+    font-size: 15pt;
+}
+.pricing-list {
+    flex-flow: column wrap;
+}
+.pricing-option {
+    width: 100%;
+    margin-top: 1em;
+}
+.team {
+    flex-flow: column wrap;
+}
+.member {
+    width: 100%;
+    margin-top: 1em;
+}
+}
+
+/* Mobile (large) */
+@media screen and (min-width:425px) and (max-width:575px) {
+.header i {
+    padding: 0.5rem 0;
+    display: block;
+}
+.text-1 h3, .text-2 h3, .text-3 h3 {
+    font-size: 22.5pt;
+    padding-bottom: 0.5em;
+}
+.text-1, .text-2, .text-3 {
+    bottom: 5px;
+}
+.what-option {
+    width: 50%;
+}
+.what-option h3 {
+    font-size: 15pt;
+}
+.pricing-list {
+    flex-flow: column wrap;
+}
+.pricing-option {
+    width: 100%;
+    margin-top: 1em;
+}
+.team {
+    flex-flow: column wrap;
+}
+.member {
+    width: 100%;
+    margin-top: 1em;
+}
+}
+
+/* Size (small) */
+@media screen and (min-width:576px) and (max-width:767px) {
+.text-1 h3, .text-2 h3, .text-3 h3 {
+    font-size: 22.5pt;
+    padding-bottom: 1em;
+}
+.text-1, .text-2, .text-3 {
+    bottom: 8px;
+}
+.what-option {
+    width: 50%;
+}
+.what-option h3 {
+    font-size: 20pt;
+}
+.pricing-list {
+    flex-flow: column wrap;
+}
+.pricing-option {
+    width: 100%;
+    margin-top: 1em;
+}
+.team {
+    flex-flow: column wrap;
+}
+.member {
+    width: 100%;
+    margin-top: 1em;
+}
+.figure-img {
+    width: 100%;
+}
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+.text-1 h3, .text-2 h3, .text-3 h3 {
+    font-size: 30pt;
+    padding-bottom: 1em;
+}
+.text-1, .text-2, .text-3 {
+    bottom: 20px;
+}
+.what-option {
+    width: 50%;
+}
+.what-option h3 {
+    font-size: 20pt;
+}
+}
+
+/* Laptop (medium)*/
+@media screen and (min-width:992px) and (max-width:1199px) {
+.text-1, .text-2, .text-3 {
+    bottom: 35px;
+}
+}
+
+/* Laptop (large) */
+@media screen and (min-width:1200px) and (max-width:1439px) {
+
+}
+
+/* Size (extra-large) */
+@media screen and (min-width:1440px) and (max-width:2559px) {
+
+}

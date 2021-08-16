@@ -1,0 +1,425 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #ffffff;
+    --white2: #9f9f9f;
+    --white3: #626262;
+    --white4: #e8e9e8;
+    --black: #010101;
+    --black2: #333;
+    --green: #4fb058;
+}
+@font-face {
+    font-family: name;
+    src: url('');
+}
+
+/* CSS */
+/*Header*/
+.header {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-flow: row wrap;
+}
+.header i {
+    padding-right: 0.5rem;
+}
+/*Header links*/
+.header a {
+    color: var(--black);
+    width: 25%;
+    padding: 0.5em 0;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--white4);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    font-weight: 500;
+    font-size: 13.5pt;
+}
+.header a:hover {
+    text-decoration: none;
+    background-color: var(--white2);
+    color: var(--white);
+}
+/*Site title*/
+.site-title {
+    padding-top: 1em;
+}
+.title-text {
+    padding-bottom: 2.5em;
+}
+/*Slider images*/
+.mySlides {
+    display: none;
+}
+.slides-image {
+    width: 100%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    vertical-align: middle;
+}
+/*Slideshow container*/
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+/*Next & previous buttons*/
+.prev, .next {
+    position: absolute;
+    color: var(--white);
+    font-size: 25px;
+    top: 0.85rem;
+}
+.prev {
+    left: 25px;
+}
+.next {
+    right: 25px;
+}
+/*On hover, add a black background color with a little bit see-through*/
+.prev:hover, .next:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+/*Caption text*/
+.text {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+/*Texts*/
+.text-1, .text-2, .text-3 {
+    bottom: 50px;
+}
+.text-1 h3, .text-2 h3, .text-3 h3 {
+    font-size: 50pt;
+    color: var(--white);
+    text-shadow: 0 0 5px var(--black);
+    padding-bottom: 1em;
+}
+/*Slider links*/
+.slides-link {
+    color: var(--white);
+    background-color: var(--black2);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    -ms-border-radius: 2.5px;
+    -o-border-radius: 2.5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.slides-link:hover {
+    color: var(--white);
+    background-color: var(--black);
+    text-decoration: none;
+}
+/* The squares/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 17.5px;
+    width: 17.5px;
+    margin: 0 2px;
+    border-radius: 2.5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    -ms-border-radius: 2.5px;
+    -o-border-radius: 2.5px;
+    border: 1px solid var(--white);
+}
+.active, .dot:hover {
+    background-color: var(--white);
+}
+/*Slider controls*/
+.slider-control {
+    width: 100%;
+    padding: 1em 0;
+    background-color: var(--white3);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+}
+/*Fading animation*/
+.myfade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+/*Main content*/
+.content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+/*Main content sections*/
+.what, .who, .contact {
+    margin: 2em 0;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid var(--white3);
+    display: inline-block;
+}
+/*What section*/
+.what-list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+.what-option {
+    width: 25%;
+    height: auto;
+    padding: 1em 1em;
+    text-align: left;
+}
+/*What articles*/
+.design {
+    background-color: var(--white4);
+}
+.branding {
+    background-color: var(--white2);
+}
+.consultation {
+    background-color: var(--white3);
+    color: var(--white);
+}
+.promises {
+    background-color: var(--black);
+    color: var(--white);
+}
+/*Pricing section*/
+.pricing {
+    padding-top: 1.5em;
+}
+.pricing-text {
+    padding-bottom: 2.5em;
+}
+/*Pricing list*/
+.pricing-list {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.pricing-option {
+    width: 32%;
+    height: auto;
+}
+.pricing-option:hover {
+    box-shadow: 0 0 7.5px var(--white2);
+}
+.options {
+    list-style-type: none;
+}
+.titles {
+    width: 100%;
+    padding: 1em;
+    background-color: var(--black);
+    color: var(--white);
+    border-top-right-radius: 2.5px;
+    border-top-left-radius: 2.5px;
+}
+/*Pricing parts*/
+.features, .price, .button {
+    width: 100%;
+    padding: 1em;
+}
+.price h4 {
+    font-size: 25pt;
+}
+.button {
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+}
+/*Sign up button*/
+.sign-up {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    -ms-border-radius: 2.5px;
+    -o-border-radius: 2.5px;
+}
+.sign-up:hover {
+    color: var(--black);
+    background-color: var(--white2);
+}
+.pro {
+    background-color: var(--white3);
+}
+/*Who section (team)*/
+.team {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.member {
+    width: 32%;
+    height: auto;
+    box-shadow: 0 0 5px var(--white3);
+}
+/*Team figures*/
+.figure-image {
+    width: 100%;
+    height: 150px;
+}
+.figure-caption {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: var(--black);
+}
+.caption-text {
+    padding: 0.75rem 0;
+    font-size: 12.5pt;
+}
+/*Contact button*/
+.contact-btn {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--white4);
+    font-weight: 500;
+    font-size: 11pt;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.contact-btn:hover {
+    color: var(--white);
+    background-color: var(--white3);
+}
+/*Form*/
+.form {
+    text-align: left;
+    padding-bottom: 2.5em;
+}
+/*Form fields*/
+#Name {
+    background: var(--white) url('./Pictures/person-30.png') 5px 3px no-repeat;
+    padding-left: 2.75em;
+}
+#Email {
+    background: var(--white) url('./Pictures/email-30.png') 5px 3px no-repeat;
+    padding-left: 2.75em;
+}
+#Subject {
+    background: var(--white) url('./Pictures/topic-30.png') 5px 3px no-repeat;
+    padding-left: 2.75em;
+}
+#Message {
+    background: var(--white) url('./Pictures/message-30.png') 5px 3px no-repeat;
+    padding-left: 2.75em;
+    resize: none;
+}
+/*Footer*/
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--white4);
+    text-align: center;
+}
+.footer h4 {
+    padding: 1.5em 0 1rem;
+}
+/*Go to top button*/
+.top-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    background-color: var(--black);
+    border: none;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    margin-bottom: 1.5em;
+    border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    -ms-border-radius: 2.5px;
+    -o-border-radius: 2.5px;
+}
+.top-btn:hover {
+    background-color: var(--white2);
+    color: var(--black);
+}
+/*Social list*/
+.social-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.social-list a {
+    color: var(--black2);
+}
+/*Brand icons*/
+.fab {
+    font-size: 27.5px;
+    margin: 0 0.25rem;
+}
+.fab:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--black);
+}
+/*Footer text*/
+.footer p {
+    padding-bottom: 2em;
+}
