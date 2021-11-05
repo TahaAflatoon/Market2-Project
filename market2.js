@@ -1,11 +1,11 @@
-/*JQuery*/
+// JQuery
 $.noConflict()
 jQuery(document).ready(function($) {
     
 })
 
-/*JavaScript*/
-//Slideshow
+// JavaScript
+// Slideshow
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -17,21 +17,21 @@ function currentSlide(n) {
 }
 function showSlides(n) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
+    let slides = document.querySelectorAll('.mySlides');
+    let dots = document.querySelectorAll('.dot');
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+        slides[i].style.display = 'none';
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(' active', '');
     }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    slides[slideIndex-1].style.display = 'block';
+    dots[slideIndex-1].className += ' active';
 }
 
-//Go to top button
+// Go to top button
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;

@@ -21,7 +21,7 @@ html {
 }
 
 /* CSS */
-/*Header*/
+/* Header */
 .header {
     width: 100%;
     height: auto;
@@ -34,7 +34,7 @@ html {
 .header i {
     padding-right: 0.5rem;
 }
-/*Header links*/
+/* Header links */
 .header a {
     color: var(--black);
     width: 25%;
@@ -55,14 +55,14 @@ html {
     background-color: var(--white2);
     color: var(--white);
 }
-/*Site title*/
+/* Site title */
 .site-title {
     padding-top: 1em;
 }
 .title-text {
     padding-bottom: 2.5em;
 }
-/*Slider images*/
+/* Slider images */
 .mySlides {
     display: none;
 }
@@ -72,13 +72,13 @@ html {
     -webkit-filter: blur(1px);
     vertical-align: middle;
 }
-/*Slideshow container*/
+/* Slideshow container */
 .slideshow-container {
     width: 100%;
     position: relative;
     margin: auto;
 }
-/*Next & previous buttons*/
+/* Next & previous buttons */
 .prev, .next {
     position: absolute;
     color: var(--white);
@@ -91,12 +91,12 @@ html {
 .next {
     right: 25px;
 }
-/*On hover, add a black background color with a little bit see-through*/
+/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     color: var(--green);
     cursor: pointer;
 }
-/*Caption text*/
+/* Caption text */
 .text {
     color: #f2f2f2;
     padding: 8px 12px;
@@ -104,7 +104,7 @@ html {
     width: 100%;
     text-align: center;
 }
-/*Texts*/
+/* Texts */
 .text-1, .text-2, .text-3 {
     bottom: 50px;
 }
@@ -114,7 +114,7 @@ html {
     text-shadow: 0 0 5px var(--black);
     padding-bottom: 1em;
 }
-/*Slider links*/
+/* Slider links */
 .slides-link {
     color: var(--white);
     background-color: var(--black2);
@@ -154,7 +154,7 @@ html {
 .active, .dot:hover {
     background-color: var(--white);
 }
-/*Slider controls*/
+/* Slider controls */
 .slider-control {
     width: 100%;
     padding: 1em 0;
@@ -164,7 +164,7 @@ html {
     justify-content: center;
     position: relative;
 }
-/*Fading animation*/
+/* Fading animation */
 .myfade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -179,20 +179,20 @@ html {
     from {opacity: .4} 
     to {opacity: 1}
 }
-/*Main content*/
+/* Main content */
 .content {
     width: 100%;
     height: auto;
     text-align: center;
 }
-/*Main content sections*/
+/* Main content sections */
 .what, .who, .contact {
     margin: 2em 0;
     padding-bottom: 1rem;
     border-bottom: 5px solid var(--white3);
     display: inline-block;
 }
-/*What section*/
+/* What section */
 .what-list {
     width: 100%;
     list-style-type: none;
@@ -205,7 +205,7 @@ html {
     padding: 1em 1em;
     text-align: left;
 }
-/*What articles*/
+/* What articles */
 .design {
     background-color: var(--white4);
 }
@@ -220,14 +220,14 @@ html {
     background-color: var(--black);
     color: var(--white);
 }
-/*Pricing section*/
+/* Pricing section */
 .pricing {
     padding-top: 1.5em;
 }
 .pricing-text {
     padding-bottom: 2.5em;
 }
-/*Pricing list*/
+/* Pricing list */
 .pricing-list {
     width: 100%;
     height: auto;
@@ -254,7 +254,7 @@ html {
     border-top-right-radius: 2.5px;
     border-top-left-radius: 2.5px;
 }
-/*Pricing parts*/
+/* Pricing parts */
 .features, .price, .button {
     width: 100%;
     padding: 1em;
@@ -266,7 +266,7 @@ html {
     border-bottom-right-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
 }
-/*Sign up button*/
+/* Sign up button */
 .sign-up {
     padding: 0.75rem 1.5rem;
     background-color: var(--green);
@@ -290,7 +290,7 @@ html {
 .pro {
     background-color: var(--white3);
 }
-/*Who section (team)*/
+/* Who section (team) */
 .team {
     width: 100%;
     height: auto;
@@ -304,7 +304,7 @@ html {
     height: auto;
     box-shadow: 0 0 5px var(--white3);
 }
-/*Team figures*/
+/* Team figures */
 .figure-image {
     width: 100%;
     height: 150px;
@@ -319,7 +319,7 @@ html {
     padding: 0.75rem 0;
     font-size: 12.5pt;
 }
-/*Contact button*/
+/* Contact button */
 .contact-btn {
     display: block;
     border: none;
@@ -343,12 +343,12 @@ html {
     color: var(--white);
     background-color: var(--white3);
 }
-/*Form*/
+/* Form */
 .form {
     text-align: left;
     padding-bottom: 2.5em;
 }
-/*Form fields*/
+/* Form fields */
 #Name {
     background: var(--white) url('./Pictures/person-30.png') 5px 3px no-repeat;
     padding-left: 2.75em;
@@ -366,7 +366,7 @@ html {
     padding-left: 2.75em;
     resize: none;
 }
-/*Footer*/
+/* Footer */
 .footer {
     width: 100%;
     height: auto;
@@ -376,7 +376,7 @@ html {
 .footer h4 {
     padding: 1.5em 0 1rem;
 }
-/*Go to top button*/
+/* Go to top button */
 .top-btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -399,7 +399,7 @@ html {
     background-color: var(--white2);
     color: var(--black);
 }
-/*Social list*/
+/* Social list */
 .social-list {
     list-style-type: none;
     display: flex;
@@ -409,7 +409,7 @@ html {
 .social-list a {
     color: var(--black2);
 }
-/*Brand icons*/
+/* Brand icons */
 .fab {
     font-size: 27.5px;
     margin: 0 0.25rem;
@@ -419,7 +419,7 @@ html {
     text-decoration: none;
     color: var(--black);
 }
-/*Footer text*/
+/* Footer text */
 .footer p {
     padding-bottom: 2em;
 }

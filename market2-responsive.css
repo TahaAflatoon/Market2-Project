@@ -1,12 +1,12 @@
-/* (Responsive)*/
+/* (Responsive) */
 /* Mobile (small) */
 @media screen and (min-width:320px) and (max-width:374px) {
-/*Header icons*/
+/* Header icons */
 .header i {
     padding: 0.5rem 0;
     display: block;
 }
-/*Slider titles*/
+/* Slider titles */
 .text-1 h3, .text-2 h3, .text-3 h3 {
     font-size: 17.5pt;
     padding-bottom: 0.25em;
@@ -14,14 +14,14 @@
 .text-1, .text-2, .text-3 {
     bottom: 5px;
 }
-/*What options*/
+/* What options */
 .what-option {
     width: 50%;
 }
 .what-option h3 {
     font-size: 15pt;
 }
-/*Pricing options*/
+/* Pricing options */
 .pricing-list {
     flex-flow: column wrap;
 }
@@ -29,7 +29,7 @@
     width: 100%;
     margin-top: 1em;
 }
-/*Team options*/
+/* Team options */
 .team {
     flex-flow: column wrap;
 }
